@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SimpleSnap</title>
+  <!-- linking bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- linking style sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font awesome to add small logo -->
+  <script src="https://kit.fontawesome.com/2fd5eeacfc.js" crossorigin="anonymous"></script>
+  <!-- linking font family from google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<!-- main body -->
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- to make the box relative to smooth shrinkage -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!--to create nav bar and its color -->
+        <a class="navbar-brand" href="">SimpleSnap</a> <!-- naming the nav bar-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--to make a drop down nav bar for mobile or small devices -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <!--contents in nav bar -->
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="row">
+        <!--each website is divided into 12 columns in each row -->
+        <div class="col-lg-6">
+          <h1>Enjoy new and Fresh Images.</h1> <br>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <!--icon and button -->
+        <div class="col-lg-6">
+          <img class="title-image" src="images/instagram.png" alt="insta-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container-fluid">
+      <di class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <!--icons -->
+          <h3>Easy to use</h3>
+          <p>So easy to use,even a 5 year kid could do it.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x "></i>
+          <h3>High Quality Images</h3>
+          <p>We have all images in High resolution.</p>
+          <!--icons -->
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x "></i>
+          <h3>Guaranteed to work</h3>
+          <p>Find good images for yourself or your money back.</p>
+        </div>
+    </div>
+    </div>
+
+
+
+  </section>
+  <!-- comments section -->
+  <section id="comments">
+    <div id="comment-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I love photography and seeing other photographers. I've found the beautiful images clicked by SimpleSnap.</h2>
+          <img class="comment-image" src="images/suhas.png" alt="suhas-img">
+          <em>Suhas Hanjar,India</em>
+        </div>
+        <div class="carousel-item">
+          <h2>All the images here are of best resolution and I love this app.I've found the beautiful images clicked by SimpleSnap.</h2>
+          <img class="comment1-image" src="images/me.png" alt="me-img">
+          <em>Hanjar,India</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#comment-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#comment-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- patners section -->
+  <section id="partners">
+    <img class="patners-logo" src="images/bizinsider.png" alt="img1">
+    <img class="patners-logo" src="images/TechCrunch.png" alt="img2">
+    <img class="patners-logo" src="images/tnw.png" alt="img3">
+    <img class="patners-logo" src="images/mashable.png" alt="img4">
+  </section>
+
+  <!-- pricing section -->
+  <section id="pricing">
+    <h2>A Plan for Every photography lover</h2>
+    <p>Simple and affordable price plans for you.</p>
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>Unlimited All Usage</p>
+            <p>WaterMarked images to download</p> <br>
+            <button type="button" class="btn btn-block btn-outline-dark btn-lg download-button">Sign up</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Gold</h3>
+          </div>
+          <div class="card-body">
+            <h2>699rs / mo</h2>
+            <p>Download Images Without Watermark</p>
+            <p>3 Images Per Month</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-block btn-dark btn-lg download-button">Sign up</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 ">
+        <div class="card">
+          <div class="card-header">
+            <h3>Platinum</h3>
+          </div>
+          <div class="card-body">
+            <h2>799rs / mo</h2>
+            <p>Download images without watermark</p>
+            <p>6 Images Per Month</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-block btn-dark btn-lg download-button">Sign up</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- cta section -->
+  <section id="cta">
+    <h3 class="h3-cta">Find the Images you Love and Enjoy!</h3>
+    <button type="button" class="btn btn-dark btn-lg cta-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg cta-button"> <i class="fab fa-google-play"></i> Download</button>
+  </section>
+
+  <!-- footer section -->
+  <section id="footer">
+    <div>
+      <a href="https://twitter.com/SuhasHanjar"><i class="footer-icon fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/suhas.hanjar/"><i class="footer-icon fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/suhas_hanjar/"><i class="footer-icon fab fa-instagram"></i></a>
+      <i class="footer-icon fas fa-envelope"></i> <br>
+      <em>© Copyright 2021 SimpleSnap</em>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
